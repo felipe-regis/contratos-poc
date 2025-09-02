@@ -1,0 +1,22 @@
+# Ignorar arquivos desnecessários
+__pycache__/
+*.pyc
+*.pyo
+*.dbc
+*.html
+*.ipynb
+*.zip
+*.log
+*.tmp
+*.bak
+
+# Ignorar configurações locais
+.DS_Store
+.env
+.vscode/
+.idea/
+*.iml
+
+# Pastas geradas por Databricks export
+dbfs/
+.dbcimport/
